@@ -67,6 +67,7 @@ export function Navbar() {
             <ul className="xl:h-auto items-center justify-center xl:flex">
               {navLinks.map((item) => (
                 <li
+                  key={item.text}
                   className={`${linkStyle}  ${
                     item.active ? "text-[#E5941F]" : "text-white"
                   }`}
