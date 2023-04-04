@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Sors: ["Sora"],
+        Sora: ["Sora"],
         Montserrat: ["Montserrat"],
       },
     },

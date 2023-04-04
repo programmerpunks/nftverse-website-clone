@@ -8,8 +8,8 @@
 }
 
 @font-face {
-  font-family: "Sora-Bold";
-  src: url('../../public/assets/fonts/Sora/static/Sora-Bold.ttf');
+  font-family: "Sora-SemiBold";
+  src: url('../../public/assets/fonts/Sora/static/Sora-SemiBold.ttf');
 }
 
 @font-face {
@@ -21,18 +21,14 @@ body{
   background-color: black;
 }
 
-a{
-  font-family: 'Sora-Bold';
-}
 
 section{
    background-color: black;
   }
 
-h1{
-  font-family: 'Sora-Bold';
+h1, span, a{
+  font-family: 'Sora-SemiBold';
 }
 
-p{
-  font-family: 'Montserrat';
-}
+
+
