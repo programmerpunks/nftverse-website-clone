@@ -3,6 +3,7 @@ import Head from "next/head";
 import Hero from "@/components/Hero/hero";
 import About from "@/components/About/about";
 import Benefit from "@/components/Benefit/benefit";
+import Collection from "@/components/Collection/collection";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Hero />
       <About />
       <Benefit />
+      <Collection />
     </>
   );
 }

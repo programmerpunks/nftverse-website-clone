@@ -40,7 +40,7 @@ export default function Benefit() {
           >
             <div className="flex flex-col lg:flex-row items-center justify-center">
               <div className="w-fit">
-                <p className="font-Montserrat uppercase text-center lg:text-left">
+                <p className="font-Montserrat uppercase text-center lg:text-left secondary-text tracking-widest">
                   {tag}
                 </p>
                 <h1
@@ -55,7 +55,7 @@ export default function Benefit() {
               </p>
             </div>
 
-            <div className="flex flex-col lg:flex-row justify-center items-center w-full mt-10 md:mt-32 mb-10">
+            <div className="flex flex-col lg:flex-row justify-center items-center w-full mt-10 md:mt-32">
               {cards.map((item, key) => (
                 <Card item={item} key={item.title} delay={100 * (key + 1)} />
               ))}

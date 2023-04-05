@@ -17,18 +17,30 @@
   src: url('../../public/assets/fonts/Montserrat/static/Montserrat-Regular.ttf');
 }
 :root{
-  background-color: #030800;
+  background-color: #000501;
 }
 
 body{
-  background-color: #030800;
+  background-color: #000501;
 }
 
 section{
-   background-color: #030800;
+   background-color: #000501;
   }
 
 h1, span, a{
+  font-family: 'Sora-SemiBold';
+}
+
+.font-Montserrat{
+  font-family: 'Montserrat';
+}
+
+.font-Sora{
+  font-family: 'Sora';
+}
+
+.font-Sora0Bold{
   font-family: 'Sora-SemiBold';
 }
 
