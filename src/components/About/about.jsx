@@ -1,4 +1,6 @@
+import Aos from "aos";
 import Image from "next/image";
+import { useEffect } from "react";
 
 import {
   aboutImage,
@@ -7,10 +9,18 @@ import {
   statics,
   tag,
 } from "@/assets/About/content";
+import "aos/dist/aos.css";
 
 export default function About() {
+  useEffect(() => {
+    Aos.init({ duration: 1000, offset: 200 });
+  }, []);
+
   return (
-    <section className="flex flex-col p-8 items-center mt-10 md:mt-16 xl:mt-0">
+    <section
+      className="flex flex-col p-8 items-center mt-10 md:mt-16 xl:mt-0"
+      data-aos="fade-up"
+    >
       <div className="flex flex-row justify-center items-center relative">
         <div className="hidden md:block w-48"></div>
         <div className="">
@@ -23,7 +33,7 @@ export default function About() {
           >
             {heading}
           </h1>
-          <p className="text-[15px]  mt-3 secondary-text md:w-[19.4rem] xl:text-[17px] md:w-[30rem] xl:w-[25rem] text-center md:text-left">
+          <p className="text-[15px]  mt-3 secondary-text md:w-[19.4rem] xl:text-[17px] xl:w-[25rem] text-center md:text-left">
             {description}
           </p>
         </div>
@@ -33,12 +43,12 @@ export default function About() {
         className="p-5 flex flex-col backdrop-opacity-10 border border-[#D8D8D81F] bg-white/10 mt-32
           md:flex-row  md:w-[40rem] xl:w-[50rem] md:h-32 rounded-lg md:mt-12"
       >
-        <div className="flex justify-center items-center w-full md:w-56 mt-[-9rem] md:mt-[-12rem] xl:w-64">
+        <div className="flex justify-center items-center w-full md:w-56 mt-[-9rem] md:mt-[-14rem] xl:w-64">
           <Image
             src={aboutImage}
             width={200}
             height={200}
-            className="w-[8rem] md:w-[12rem] h-auto"
+            className="w-[8rem] md:w-[13rem] h-auto"
           />
         </div>
 

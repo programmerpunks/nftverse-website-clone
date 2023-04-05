@@ -78,7 +78,7 @@ export default function Hero() {
             src={layerImage}
             width={300}
             height={300}
-            className="absolute z30 w-[10rem] ml-[-17rem] mt-[-13rem] md:w-[17rem] md:ml-[-20rem] md:mt-[-15rem] xl:w-[20rem] xl:ml-[-24rem]"
+            className="absolute w-[10rem] ml-[-17rem] mt-[-13rem] md:w-[17rem] md:ml-[-20rem] md:mt-[-15rem] xl:w-[20rem] xl:ml-[-24rem]"
           />
 
           <div

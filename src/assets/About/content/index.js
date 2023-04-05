@@ -12,3 +12,5 @@ export const statics = [
   { title: "Collectors", value: "3.91K" },
   { title: "Artist", value: "200" },
 ];
+
+
