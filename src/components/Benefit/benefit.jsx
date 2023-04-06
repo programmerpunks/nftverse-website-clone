@@ -4,8 +4,6 @@ import { useEffect } from "react";
 
 import Card from "./card";
 import { cards, description, heading, tag } from "@/assets/Benefit/content";
-import greenBlurOverlay from "/src/assets/Benefit/images/l-blur-green.png";
-import orangeBlurOverlay from "/src/assets/Benefit/images/s-blur-orange.png";
 
 export default function Benefit() {
   useEffect(() => {
@@ -19,14 +17,14 @@ export default function Benefit() {
           <div className="flex bg-[url('/assets/images/dots-r.png')] bg-cover w-full h-full "></div>
           <div className="flex flex-row justify-end items-end relative rotate-[150deg] mr-[-29rem] ">
             <Image
-              src={greenBlurOverlay}
+              src="/assets/images/l-blur-green.png"
               alt="Background Image"
               width={1000}
               height={1000}
               className="blur-lg opacity-70 "
             />
             <Image
-              src={orangeBlurOverlay}
+              src="/assets/images/s-blur-orange.png"
               alt="Overlay Image"
               width={600}
               height={600}

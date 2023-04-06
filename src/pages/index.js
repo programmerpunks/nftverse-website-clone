@@ -4,6 +4,8 @@ import Hero from "@/components/Hero/hero";
 import About from "@/components/About/about";
 import Benefit from "@/components/Benefit/benefit";
 import Collection from "@/components/Collection/collection";
+import Roadmap from "@/components/Roadmap/roadmap";
+import Collaboration from "@/components/Collaboration/collaboration";
 
 export default function Home() {
   return (
@@ -19,6 +21,8 @@ export default function Home() {
       <About />
       <Benefit />
       <Collection />
+      {/* <Roadmap /> */}
+      <Collaboration />
     </>
   );
 }
