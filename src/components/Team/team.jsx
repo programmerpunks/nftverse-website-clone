@@ -7,14 +7,14 @@ export default function Team() {
   return (
     <section
       className="overflow-x-hidden overflow-y-hidden mt-10"
-      // data-aos="fade-up" 
+      data-aos="fade-up"
     >
       <Header tag={tag} heading={heading} />
 
-      <div className="flex flex-row  flex-nowrap overflow-x-scroll justify-center items-center p-5">
+      <div className="flex flex-row flex-nowrap overflow-x-scroll justify-center items-center p-5 px-[27rem] md:px-5">
         {team.map((item, key) => (
           <TeamCard
-            key={key}
+            id={key}
             image={item.image}
             name={item.name}
             designation={item.designation}

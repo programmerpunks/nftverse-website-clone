@@ -1,11 +1,11 @@
 import Image from "next/image";
 
-export default function Card({ image, name, designation, key }) {
+export default function Card({ image, name, designation, id }) {
   return (
-    <div className="flex flex-col m-5 justify-center mt-8" key={key}>
-      <div className="mb-10">
-      <div className="w-[13.5rem] h-[15rem] backdrop-opacity-10 bg-neutral-400/20 rounded-lg border border-[#373737] ml-3"></div>
-      <Image
+    <div className="flex flex-col m-5 justify-center mt-8" key={id}>
+      <div className="mb-10" key={id}>
+        <div className="w-[13.5rem] h-[15rem] backdrop-opacity-10 bg-neutral-400/20 rounded-lg border border-[#373737] ml-3"></div>
+        <Image
           src={image}
           width={200}
           height={200}
@@ -13,8 +13,8 @@ export default function Card({ image, name, designation, key }) {
         />
       </div>
 
-        <h1 className="text-lg">{name}</h1>
-        <p className="secondary-text">{designation}</p>
+      <h1 className="text-lg">{name}</h1>
+      <p className="secondary-text">{designation}</p>
     </div>
   );
 }

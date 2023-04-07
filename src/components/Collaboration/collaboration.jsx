@@ -1,10 +1,17 @@
+import Aos from "aos";
+import { useEffect } from "react";
+
 import { companyLogos, heading } from "@/assets/Collaboration/content";
 import Image from "next/image";
 
 export default function Collaboration() {
+  useEffect(() => {
+    Aos.init({ duration: 1000, offset: 200 });
+  }, []);
+
   return (
     <section className="my-20">
-      <div className="flex flex-col justify-center items-center">
+      <div className="flex flex-col justify-center items-center"  data-aos="fade-up">
         <h1
           className="bg-gradient-to-r from-[#F69F21] to-[#EE7C08]
                 text-transparent bg-clip-text text-4xl py-3 text-center md:text-left"

@@ -1,4 +1,6 @@
+import Aos from "aos";
 import Head from "next/head";
+import { useEffect } from "react";
 
 import Hero from "@/components/Hero/hero";
 import About from "@/components/About/about";
@@ -10,6 +12,9 @@ import Team from "@/components/Team/team";
 import Articles from "@/components/Articles/articles";
 
 export default function Home() {
+  useEffect(() => {
+    Aos.init({ duration: 1000, offset: 200 });
+  }, []);
   return (
     <>
       <Head>

@@ -1,12 +1,22 @@
-import { buttonText } from "@/assets/Articles/content";
+import Aos from "aos";
+import { useEffect } from "react";
 import Image from "next/image";
 
-export default function Card({ item, key }) {
+import { buttonText } from "@/assets/Articles/content";
+
+export default function Card({ item, delay }) {
   const { image, title, description } = item;
+
+  useEffect(() => {
+    Aos.init({ duration: 1000, offset: 200 });
+  }, []);
+
   return (
     <div
-      key={key}
+      key={item._id}
       className="flex flex-col justify-center items-center self-center m-3"
+      data-aos="fade-up"
+      data-aos-delay={delay}
     >
       <Image
         src={image}
