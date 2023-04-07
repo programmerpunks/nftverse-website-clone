@@ -10,6 +10,8 @@ import Roadmap from "@/components/Roadmap/roadmap";
 import Collaboration from "@/components/Collaboration/collaboration";
 import Team from "@/components/Team/team";
 import Articles from "@/components/Articles/articles";
+import NewsLetter from "@/components/NewsLetter/newsLetter";
+import Footer from "@/components/Footer/footer";
 
 export default function Home() {
   useEffect(() => {
@@ -32,6 +34,8 @@ export default function Home() {
       <Collaboration />
       <Team />
       <Articles />
+      <NewsLetter />
+      <Footer />
     </>
   );
 }

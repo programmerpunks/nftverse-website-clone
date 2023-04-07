@@ -1,4 +1,4 @@
-export default function Header({ tag, heading }) {
+export default function Header({ tag, heading, description }) {
   return (
     <div className="flex flex-col justify-center items-center">
       <p className="font-Montserrat uppercase text-center secondary-text tracking-widest">
@@ -10,6 +10,9 @@ export default function Header({ tag, heading }) {
       >
         {heading}
       </h1>
+      <p className="w-[40rem] text-center secondary-text tracking-widest">
+        {description}
+      </p>
     </div>
   );
 }
