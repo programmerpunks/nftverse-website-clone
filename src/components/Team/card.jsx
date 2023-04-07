@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-export default function Card({ image, name, designation }) {
+export default function Card({ image, name, designation, key }) {
   return (
-    <div className="flex flex-col m-5 justify-center mt-8">
+    <div className="flex flex-col m-5 justify-center mt-8" key={key}>
       <div className="mb-10">
       <div className="w-[13.5rem] h-[15rem] backdrop-opacity-10 bg-neutral-400/20 rounded-lg border border-[#373737] ml-3"></div>
       <Image

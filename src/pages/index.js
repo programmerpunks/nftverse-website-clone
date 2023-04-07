@@ -7,6 +7,7 @@ import Collection from "@/components/Collection/collection";
 import Roadmap from "@/components/Roadmap/roadmap";
 import Collaboration from "@/components/Collaboration/collaboration";
 import Team from "@/components/Team/team";
+import Articles from "@/components/Articles/articles";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       {/* <Roadmap /> */}
       <Collaboration />
       <Team />
+      <Articles />
     </>
   );
 }
