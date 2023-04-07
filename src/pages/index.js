@@ -6,6 +6,7 @@ import Benefit from "@/components/Benefit/benefit";
 import Collection from "@/components/Collection/collection";
 import Roadmap from "@/components/Roadmap/roadmap";
 import Collaboration from "@/components/Collaboration/collaboration";
+import Team from "@/components/Team/team";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <Collection />
       {/* <Roadmap /> */}
       <Collaboration />
+      <Team />
     </>
   );
 }
