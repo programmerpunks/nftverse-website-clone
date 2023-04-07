@@ -15,6 +15,7 @@ export default function Collaboration() {
         <div className="flex flex-col md:flex-row">
           {companyLogos.map((item, key) => (
             <Image
+              key={key}
               src={item}
               width={200}
               height={200}
