@@ -1,6 +1,6 @@
 import Aos from "aos";
-import { useEffect } from "react";
 import Image from "next/image";
+import { useEffect } from "react";
 
 import { buttonText } from "@/assets/Articles/content";
 

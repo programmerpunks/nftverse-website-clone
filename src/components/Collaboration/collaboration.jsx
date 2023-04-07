@@ -14,7 +14,7 @@ export default function Collaboration() {
       <div className="flex flex-col justify-center items-center"  data-aos="fade-up">
         <h1
           className="bg-gradient-to-r from-[#F69F21] to-[#EE7C08]
-                text-transparent bg-clip-text text-4xl py-3 text-center md:text-left"
+                text-transparent bg-clip-text text-3xl md:text-4xl py-3 text-center md:text-left"
         >
           {heading}
         </h1>

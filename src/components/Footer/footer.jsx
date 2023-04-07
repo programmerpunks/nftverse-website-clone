@@ -1,5 +1,7 @@
+import Aos from "aos";
 import Link from "next/link";
 import Image from "next/image";
+import { useEffect } from "react";
 
 import {
   copyrightText,
@@ -10,15 +12,21 @@ import {
 } from "@/assets/Footer/content";
 
 export default function Footer() {
+  useEffect(() => {
+    Aos.init({ duration: 1000, offset: 300 });
+  }, []);
   return (
     <section>
-      <div className="bg-[url('/assets/images/bg-wire.png')] bg-cover w-full h-[15rem] md:h-[10rem]">
-        <div className="flex flex-col md:flex-row justify-between items-center p-3 px-44 pt-16">
+      <div className="bg-[url('/assets/images/bg-wire.png')] bg-cover w-full h-[16.4rem] lg:h-[10rem]">
+        <div
+          className="flex flex-col lg:flex-row justify-between items-center p-3 px-32 pt-16 md:px-44"
+          data-aos="fade-up"
+        >
           <Image src={Logo} width={200} height={200} alt="main-logo" />
-          <div className="w-[17rem] my-7 md:w-[32rem] flex flex-row justify-between items-center self-center md:my-0 ">
+          <div className="w-[17rem] my-7 lg:w-[32rem] flex flex-row justify-between items-center self-center lg:my-0 ">
             {footerLinks.map((item) => (
               <Link href={item.link}>
-                <p className="text-[#7A7B7E] font-Montserrat text-sm hover:text-[#C7C9CD] md:text-xl">
+                <p className="text-[#7A7B7E] font-Montserrat text-sm hover:text-[#C7C9CD] lg:text-xl">
                   {item.text}
                 </p>
               </Link>
@@ -33,8 +41,8 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row justify-between items-center px-10 md:px-44 mt-12 border-t border-[#2D2E30] pt-4">
-          <p className="text-[#7A7B7E] font-Montserrat text-xs md:text-md">
+        <div className="flex flex-col  justify-between items-center px-10 mt-12 border-t border-[#2D2E30] pt-4 lg:px-44 lg:flex-row">
+          <p className="text-[#7A7B7E] font-Montserrat text-xs lg:text-md">
             {copyrightText}
           </p>
           <div className="flex flex-row ">

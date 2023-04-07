@@ -12,6 +12,7 @@ import Team from "@/components/Team/team";
 import Articles from "@/components/Articles/articles";
 import NewsLetter from "@/components/NewsLetter/newsLetter";
 import Footer from "@/components/Footer/footer";
+import FAQ from "@/components/FAQ/faq";
 
 export default function Home() {
   useEffect(() => {
@@ -33,6 +34,7 @@ export default function Home() {
       {/* <Roadmap /> */}
       <Collaboration />
       <Team />
+      <FAQ />
       <Articles />
       <NewsLetter />
       <Footer />
