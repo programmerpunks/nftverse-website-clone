@@ -49,6 +49,7 @@ export default function About() {
             width={200}
             height={200}
             className="w-[8rem] md:w-[13rem] h-auto"
+            alt="about-us"
           />
         </div>
 

@@ -12,6 +12,7 @@ export default function SliderCard({ item, key }) {
         src={image}
         width={200}
         height={200}
+        alt="collection"
         className="w-[12rem] absolute z-40 mt-[-13rem]"
       />
       <div

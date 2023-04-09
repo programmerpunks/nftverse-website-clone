@@ -72,12 +72,14 @@ export default function Hero() {
             src={heroImage}
             width={350}
             height={500}
+            alt="hero"
             className="w-[18rem] md:w-[20rem] xl:w-[24rem] rounded-lg shadow-2xl"
           />
           <Image
             src={layerImage}
             width={300}
             height={300}
+            alt="hero-layer"
             className="absolute w-[10rem] ml-[-17rem] mt-[-13rem] md:w-[17rem] md:ml-[-20rem] md:mt-[-15rem] xl:w-[20rem] xl:ml-[-24rem]"
           />
 
@@ -88,7 +90,7 @@ export default function Hero() {
             <h1 className="text-white text-lg">{blurBoxHeading}</h1>
             <div className="flex flex-col md:flex-row mt-6 justify-between">
               <div className="flex flex-row">
-                <Image src={bidLogo} width={20} height={20} />
+                <Image src={bidLogo} width={20} height={20} alt="logo"/>
                 <p className="ml-2 font-Montserrat">
                   {blurBoxText}
                   <br />
