@@ -39,7 +39,7 @@ export default function Footer() {
           </p>
           <div className="flex flex-row ">
             {links.map((item) => (
-              <Link href={item.link} className="m-2" key={item.text}>
+              <Link href={item.link} className="m-2" key={item._id}>
                 <p className="text-[#7A7B7E] font-Montserrat text-xs md:text-md hover:text-[#C7C9CD]">
                   {item.text}
                 </p>
