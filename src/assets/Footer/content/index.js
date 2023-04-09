@@ -32,10 +32,10 @@ export const footerLinks = [
 ];
 
 export const socialLinks = [
-  <BsFacebook size={30} color="#EE7C08" />,
-  <BsInstagram size={30} color="#EE7C08" />,
-  <AiOutlineTwitter size={30} color="#EE7C08" />,
-  <RiDiscordFill size={30} color="#EE7C08" />,
+  { _id: 0, icon: <BsFacebook size={30} color="#EE7C08" /> },
+  { _id: 1, icon: <BsInstagram size={30} color="#EE7C08" /> },
+  { _id: 2, icon: <AiOutlineTwitter size={30} color="#EE7C08" /> },
+  { _id: 3, icon: <RiDiscordFill size={30} color="#EE7C08" /> },
 ];
 
 export const copyrightText = "Copyright 2022 nftverse | Powered by nftverse";

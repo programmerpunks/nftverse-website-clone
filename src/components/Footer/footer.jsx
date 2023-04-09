@@ -10,6 +10,8 @@ import {
 } from "@/assets/Footer/content";
 
 export default function Footer() {
+  console.log("ss: ", socialLinks[1].icon);
+
   return (
     <section>
       <div className="bg-[url('/assets/images/bg-wire.png')] bg-cover w-full h-[16.4rem] lg:h-[10rem]">
@@ -26,10 +28,10 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-row justify-between items-center w-[12rem] cursor-pointer">
-            {socialLinks[0]}
-            {socialLinks[1]}
-            {socialLinks[2]}
-            {socialLinks[3]}
+            {socialLinks[0].icon}
+            {socialLinks[1].icon}
+            {socialLinks[2].icon}
+            {socialLinks[3].icon}
           </div>
         </div>
 
