@@ -23,6 +23,7 @@ export function Navbar() {
         src={blurGreenBg}
         width={500}
         height={500}
+        alt="background-layer"
         className="absolute translate-x-[-40%] translate-y-[-40%]"
       />
       <div className="p-10 px-4 xl:px-44 z-20 w-full animate__animated animate__fadeInDown">

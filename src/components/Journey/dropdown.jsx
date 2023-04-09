@@ -1,6 +1,5 @@
 export default function Dropdown({ item }) {
   const { _id, question, answer } = item;
-
   return (
     <div
       key={_id}

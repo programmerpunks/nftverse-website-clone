@@ -52,6 +52,7 @@ export default function Roadmap() {
               src={containerImage}
               width={300}
               height={300}
+              alt="container"
               className="w-[22rem] mt-16"
             />
           </div>

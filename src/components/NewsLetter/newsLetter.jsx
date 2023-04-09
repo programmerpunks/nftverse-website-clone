@@ -42,6 +42,7 @@ export default function NewsLetter() {
             src={bgImage}
             width={300}
             height={600}
+            alt="background-image"
             className="w-[22rem] h-[19rem] rounded-lg border border-[#404142] md:w-[45rem] md:h-[19rem] lg:h-auto lg:w-[66rem]"
           />
           <div className="absolute flex flex-col justify-center items-center mt-16 md:mt-22 lg:mt-32">

@@ -14,7 +14,7 @@ export const ShowCounter = ({ days, hours, minutes, seconds }) => {
       <p>:</p>
       <DateTimeDisplay value={seconds} type={"Seconds"} />
       <p className="text-sm font-Montserrat">left</p>
-      <Image src={litIcon} width={20} height={20} className="ml-2" />
+      <Image src={litIcon} width={20} height={20} className="ml-2" alt="fire-icon" />
     </div>
   );
 };

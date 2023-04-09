@@ -10,6 +10,7 @@ export default function Card({ item }) {
           src={image}
           width={200}
           height={200}
+          alt="card"
           className="relative z-30  mt-[-16.5rem] w-[13rem] h-[15rem] rounded-lg"
         />
       </div>

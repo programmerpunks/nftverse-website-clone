@@ -11,11 +11,13 @@ export const description =
 
 export const info = [
   {
+    _id: 0,
     question: "What is the utility?",
     answer:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
   },
   {
+    _id: 1,
     question: "When did we launch?",
     answer:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",

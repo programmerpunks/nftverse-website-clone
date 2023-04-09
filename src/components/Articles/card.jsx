@@ -22,6 +22,7 @@ export default function Card({ item, delay }) {
         src={image}
         width={200}
         height={220}
+        alt="article"
         className="w-[19rem] h-auto absolute z-40 mt-[-17rem] rounded-lg md:w-[35rem] lg:w-[21rem]"
       />
       <div

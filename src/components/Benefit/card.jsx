@@ -20,6 +20,7 @@ export default function Card({ item, delay }) {
         src={image}
         width={100}
         height={100}
+        alt="benefit"
         className=" mt-[-5rem] w-[9rem]"
       />
       <h1 className="text-white text-center mt-10 text-2xl">{title}</h1>

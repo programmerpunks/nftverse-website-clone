@@ -39,6 +39,7 @@ export default function Journey() {
               src={bgImage}
               width={300}
               height={300}
+              alt="background-image"
               className="w-[20.5rem] h-[21rem] md:w-[32rem] md:h-[30rem] lg:w-[40rem] lg:h-[29rem] rounded-xl"
             />
           </div>
