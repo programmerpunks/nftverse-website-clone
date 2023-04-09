@@ -1,6 +1,6 @@
-import cardImg1 from "/src/assets/Benefit/images/h1-Benefit-icon1.png";
-import cardImg2 from "/src/assets/Benefit/images/h1-Benefit-icon2.png";
-import cardImg3 from "/src/assets/Benefit/images/h1-Benefit-icon3.png";
+import cardImg1 from "/src/assets/Benefit/images/h1-benefit-icon1.png";
+import cardImg2 from "/src/assets/Benefit/images/h1-benefit-icon2.png";
+import cardImg3 from "/src/assets/Benefit/images/h1-benefit-icon3.png";
 
 export const tag = "Benefit";
 export const heading = "What makes us different?";
