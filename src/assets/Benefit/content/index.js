@@ -9,18 +9,21 @@ export const description =
 
 export const cards = [
   {
+    _id: 0,
     image: cardImg1,
     title: "Benefit Title",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
   },
   {
+    _id: 1,
     image: cardImg2,
     title: "Benefit Title",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
   },
   {
+    _id: 2,
     image: cardImg3,
     title: "Benefit Title",
     description:

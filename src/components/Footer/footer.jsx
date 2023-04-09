@@ -20,7 +20,7 @@ export default function Footer() {
           <Image src={Logo} width={200} height={200} alt="main-logo" />
           <div className="w-[17rem] my-7 lg:w-[32rem] flex flex-row justify-between items-center self-center lg:my-0 ">
             {footerLinks.map((item) => (
-              <Link href={item.link}>
+              <Link href={item.link} key={item.text}>
                 <p className="text-[#7A7B7E] font-Montserrat text-sm hover:text-[#C7C9CD] lg:text-xl">
                   {item.text}
                 </p>
@@ -42,7 +42,7 @@ export default function Footer() {
           </p>
           <div className="flex flex-row ">
             {links.map((item) => (
-              <Link href={item.link} className="m-2">
+              <Link href={item.link} className="m-2" key={item.text}>
                 <p className="text-[#7A7B7E] font-Montserrat text-xs md:text-md hover:text-[#C7C9CD]">
                   {item.text}
                 </p>

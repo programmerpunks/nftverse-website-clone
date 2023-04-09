@@ -25,26 +25,23 @@ export const info = [
 export const socialAnalytics = [
   {
     _id: 0,
-    icon: <AiOutlineTwitter size={50} color="#EE7C08" />,
+    icon: <AiOutlineTwitter size={40} color="#EE7C08" />,
     stats: "20K",
     caption: "Followers",
-    customStyle:
-      "w-[9rem] h-[6rem] lg:w-[11rem] lg:h-[10rem] m-5 ml-[-15rem] lg:ml-[-10rem] mt-8",
+    customStyle: `w-[9rem] h-[7rem] m-5 mt-8 ml-[-5rem] lg:w-[11rem] lg:h-[10rem] lg:ml-[-10rem]`,
   },
   {
     _id: 1,
-    icon: <RiDiscordFill size={50} color="#EE7C08" />,
+    icon: <RiDiscordFill size={40} color="#EE7C08" />,
     stats: "10K",
     caption: "Followers",
-    customStyle:
-      "w-[10rem] h-[8rem] lg:w-[12rem] lg:h-[11rem] m-4 ml-[-12rem] lg:ml-[-6rem] mt-1",
+    customStyle: `w-[9rem] h-[7rem]  m-4 ml-[-8rem]  mt-1 lg:w-[12rem] lg:h-[11rem] lg:ml-[-4rem]`,
   },
   {
     _id: 2,
-    icon: <BsInstagram size={50} color="#EE7C08" />,
+    icon: <BsInstagram size={40} color="#EE7C08" />,
     stats: "30K",
     caption: "Followers",
-    customStyle:
-      "absolute w-[9rem] h-[10rem] ml-16 lg:w-[11rem] lg:h-[12rem] lg:ml-52 mt-0",
+    customStyle: `absolute w-[6rem] h-[8rem] mt-0 ml-32 lg:w-[11rem] lg:h-[12rem] lg:ml-[13rem]`,
   },
 ];

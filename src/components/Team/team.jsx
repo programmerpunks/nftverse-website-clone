@@ -12,13 +12,8 @@ export default function Team() {
       <Header tag={tag} heading={heading} />
 
       <div className="flex flex-row flex-nowrap overflow-x-scroll justify-center items-center p-5 px-[27rem] md:px-5">
-        {team.map((item, key) => (
-          <TeamCard
-            id={key}
-            image={item.image}
-            name={item.name}
-            designation={item.designation}
-          />
+        {team.map((item) => (
+          <TeamCard key={item._id} item={item} />
         ))}
       </div>
     </section>

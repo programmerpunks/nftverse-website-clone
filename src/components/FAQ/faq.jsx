@@ -46,7 +46,7 @@ export default function FAQ() {
 
           <div className="flex flex-col mt-16 lg:mt-0">
             {faqs.map((item, key) => (
-              <Dropdown item={item} delay={(key + 1) * 100} />
+              <Dropdown item={item} key={item._id} delay={(key + 1) * 100} />
             ))}
           </div>
         </div>

@@ -55,7 +55,7 @@ export default function Benefit() {
 
             <div className="flex flex-col lg:flex-row justify-center items-center w-full mt-10 md:mt-32">
               {cards.map((item, key) => (
-                <Card item={item} key={item.title} delay={100 * (key + 1)} />
+                <Card item={item} key={item._id} delay={100 * (key + 1)} />
               ))}
             </div>
           </div>
