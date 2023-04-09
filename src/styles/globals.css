@@ -1,3 +1,88 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Sora";
+  src: url('../../public/assets/fonts/Sora/static/Sora-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Sora-SemiBold";
+  src: url('../../public/assets/fonts/Sora/static/Sora-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('../../public/assets/fonts/Montserrat/static/Montserrat-Regular.ttf');
+}
+:root{
+  background-color: #000501;
+}
+
+body{
+  background-color: #000501;
+}
+
+section{
+   background-color: #000501;
+  }
+
+h1, span, a{
+  font-family: 'Sora-SemiBold';
+}
+
+.font-Montserrat{
+  font-family: 'Montserrat';
+}
+
+.font-Sora{
+  font-family: 'Sora';
+}
+
+.font-Sora0Bold{
+  font-family: 'Sora-SemiBold';
+}
+
+.secondary-text{
+  color: #7E7E7E;
+  font-family: 'Montserrat';
+}
+
+
+::-webkit-scrollbar {
+  width: 2px !important;
+  height: 2px !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(36, 35, 35); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(190, 108, 7); 
+  border: transparent;
+  border-radius: 10px;
+  transition: 6s ease-in-out;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  width: 3px !important;
+  height: 10px !important;
+  background: rgb(226, 132, 18); 
+
+}
+.animate__animated.animate__fadeInUp{
+  --animate-duration: 1.5s;
+  --animate-delay: 1s;
+}
+
+.animate__animated.animate__fadeInUp.content{
+  --animate-delay: 0.7s;
+}
+
+
