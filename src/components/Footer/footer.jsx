@@ -13,7 +13,7 @@ export default function Footer() {
   return (
     <section>
       <div className="bg-[url('/assets/images/bg-wire.png')] bg-cover w-full h-[16.4rem] lg:h-[10rem]">
-        <div className="flex flex-col lg:flex-row justify-between items-center p-3 px-32 pt-16 md:px-44">
+        <div className="flex flex-col lg:flex-row justify-between items-center p-3 px-32 pt-16 md:px-44 2xl:px-[32rem] 4xl:px-[42rem]">
           <Image src={Logo} width={200} height={200} alt="main-logo" />
           <div className="w-[17rem] my-7 lg:w-[32rem] flex flex-row justify-between items-center self-center lg:my-0 ">
             {footerLinks.map((item) => (
