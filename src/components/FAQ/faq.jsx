@@ -12,7 +12,7 @@ import {
 
 export default function FAQ() {
   useEffect(() => {
-    Aos.init({ duration: 1000, offset: 300 });
+    Aos.init({ duration: 1000, offset: 200 });
   }, []);
   return (
     <section className="mb-64 lg:mb-5">

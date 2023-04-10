@@ -11,7 +11,7 @@ import {
 
 export default function NewsLetter() {
   useEffect(() => {
-    Aos.init({ duration: 1000, offset: 300 });
+    Aos.init({ duration: 1000, offset: 200 });
   }, []);
   return (
     <section className="overflow-x-hidden overflow-y-hidden">

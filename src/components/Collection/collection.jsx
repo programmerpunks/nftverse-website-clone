@@ -15,7 +15,7 @@ import SliderCard from "./sliderCard";
 
 export default function Collection() {
   useEffect(() => {
-    Aos.init({ duration: 1000, offset: 300 });
+    Aos.init({ duration: 1000, offset: 200 });
   }, []);
   return (
     <section

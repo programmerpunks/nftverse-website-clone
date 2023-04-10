@@ -7,7 +7,7 @@ import { cards, description, heading, tag } from "@/assets/Benefit/content";
 
 export default function Benefit() {
   useEffect(() => {
-    Aos.init({ duration: 1000, offset: 300 });
+    Aos.init({ duration: 1000, offset: 200 });
   }, []);
 
   return (

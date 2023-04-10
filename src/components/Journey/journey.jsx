@@ -16,7 +16,7 @@ import SocialCard from "./socialCard";
 
 export default function Journey() {
   useEffect(() => {
-    Aos.init({ duration: 1000, offset: 300 });
+    Aos.init({ duration: 1000, offset: 200 });
   }, []);
 
   return (
@@ -26,13 +26,15 @@ export default function Journey() {
           className="flex flex-col justify-center items-start ml-0  
           lg:mt-0 lg:ml-36 lg:flex-row lg:items-center h-full "
         >
-          <div className="z-30 flex flex-col justify-center items-center ">
+          <div
+            className="z-30 flex flex-col justify-center items-center"
+            data-aos="fade-up"
+          >
             <div className="absolute flex flex-row justify-center items-center w-[20rem] lg:w-[25rem] flex-wrap">
               {socialAnalytics.map((item, key) => (
                 <SocialCard
                   key={item._id}
                   item={item}
-                  delay={(key + 1) * 100}
                 />
               ))}
             </div>
@@ -48,6 +50,7 @@ export default function Journey() {
           <div
             className="backdrop-opacity-10 bg-[#474543]/60 w-[21.5rem] p-7 h-auto rounded-xl mt-[-3rem] pt-20
           flex flex-col justify-center items-center md:w-[32rem] lg:w-[56rem] lg:items-start lg:ml-[-5rem] lg:p-16 lg:pl-32 ease-in-out"
+            data-aos="fade-left"
           >
             <p className="uppercase secondary-text text-lg tracking-widest text-center lg:text-left">
               {tag}
@@ -64,7 +67,7 @@ export default function Journey() {
 
             <div className="mb-10 pt-5">
               {info.map((item, key) => (
-                <Dropdown item={item} key={item._id} delay={(key + 1) * 100} />
+                <Dropdown item={item} key={item._id} />
               ))}
             </div>
           </div>

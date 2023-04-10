@@ -1,7 +1,7 @@
 import Aos from "aos";
 import { useEffect } from "react";
 
-export default function SocialCard({ item, delay }) {
+export default function SocialCard({ item }) {
   const { _id, icon, stats, caption, customStyle } = item;
 
   useEffect(() => {
@@ -13,12 +13,7 @@ export default function SocialCard({ item, delay }) {
     customStyle;
 
   return (
-    <div
-      key={_id}
-      className={cardStyle}
-      data-aos="fade-right"
-      data-aos-delay={delay}
-    >
+    <div key={_id} className={cardStyle} data-aos="fade-right">
       {icon}
       <h1 className="text-2xl text-white mt-3">{stats}</h1>
       <p className="text-lg secondary-text">{caption}</p>

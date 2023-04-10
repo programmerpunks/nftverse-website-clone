@@ -1,12 +1,8 @@
-import Aos from "aos";
 import Head from "next/head";
-import { useEffect } from "react";
-
 import Hero from "@/components/Hero/hero";
 import About from "@/components/About/about";
 import Benefit from "@/components/Benefit/benefit";
 import Collection from "@/components/Collection/collection";
-import Roadmap from "@/components/Roadmap/roadmap";
 import Collaboration from "@/components/Collaboration/collaboration";
 import Team from "@/components/Team/team";
 import Articles from "@/components/Articles/articles";
@@ -16,9 +12,7 @@ import FAQ from "@/components/FAQ/faq";
 import Journey from "@/components/Journey/journey";
 
 export default function Home() {
-  useEffect(() => {
-    Aos.init({ duration: 1000, offset: 200 });
-  }, []);
+
   return (
     <>
       <Head>
@@ -32,7 +26,6 @@ export default function Home() {
       <About />
       <Benefit />
       <Collection />
-      {/* <Roadmap /> */}
       <Collaboration />
       <Journey />
       <Team />
