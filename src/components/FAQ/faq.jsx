@@ -20,7 +20,7 @@ export default function FAQ() {
         <div className="flex bg-[url('/assets/images/dots-r.png')] bg-cover w-full h-full "></div>
 
         <div
-          className="flex flex-col absolute lg:flex-row justify-between items-center px-40 mt-20 w-full"
+          className="flex flex-col absolute lg:flex-row justify-between items-center px-40 mt-20 w-full 2xl:px-[25rem] 4xl:px-[35rem]"
           data-aos="fade-up"
         >
           <div className="flex flex-col justify-center items-center w-[20rem] lg:items-start md:w-[30rem]">

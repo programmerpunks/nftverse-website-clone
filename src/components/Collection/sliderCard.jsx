@@ -17,7 +17,7 @@ export default function SliderCard({ item, key }) {
       />
       <div
         className="flex flex-col justify-center items-center backdrop-opacity-10 bg-[#9A9FA2]/20 
-        border border-[#373737] rounded-lg w-full mt-28 z-30  pt-48 pb-10 hover:border-[#777777] cursor-pointer"
+        border border-[#373737] rounded-lg w-full mt-28 z-30 pt-48 pb-10 hover:border-[#777777] cursor-pointer 4xl:w-[30rem]"
       >
         <h1 className="text-white text-center mt-10 text-2xl">{title}</h1>
         <h1 className="text-center text-xl text-[#7E7E7E] mt-3">

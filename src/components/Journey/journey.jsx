@@ -10,6 +10,7 @@ import {
   socialAnalytics,
   tag,
   info,
+  cardStyle3,
 } from "@/assets/Journey/content";
 import SocialCard from "./socialCard";
 
@@ -26,7 +27,7 @@ export default function Journey() {
           lg:mt-0 lg:ml-36 lg:flex-row lg:items-center"
         >
           <div className="z-30 flex flex-col justify-center self-center ">
-            <div className="absolute flex flex-col justify-center items-center w-[20rem] lg:w-[34rem]">
+            <div className="absolute flex flex-row justify-center items-center w-[20rem] lg:w-[25rem] flex-wrap ">
               {socialAnalytics.map((item, key) => (
                 <SocialCard
                   key={item._id}

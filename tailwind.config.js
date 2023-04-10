@@ -10,6 +10,9 @@ module.exports = {
         Sora: ["Sora"],
         Montserrat: ["Montserrat"],
       },
+      screens: {
+        "4xl": "2450px",
+      },
     },
   },
   plugins: [require("daisyui")],

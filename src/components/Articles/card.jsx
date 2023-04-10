@@ -14,7 +14,7 @@ export default function Card({ item, delay }) {
   return (
     <div
       key={item._id}
-      className="flex flex-col justify-center items-center self-center m-3 md:w-full md:mt-16 lg:mt-3"
+      className="flex flex-col justify-center items-center self-center m-3 md:w-full md:mt-16 lg:mt-3 2xl:mt-10"
       data-aos="fade-up"
       data-aos-delay={delay}
     >
@@ -23,15 +23,15 @@ export default function Card({ item, delay }) {
         width={200}
         height={220}
         alt="article"
-        className="w-[19rem] h-auto absolute z-40 mt-[-17rem] rounded-lg md:w-[35rem] lg:w-[21rem]"
+        className="w-[19rem] h-auto absolute z-40 mt-[-17rem] rounded-lg md:w-[35rem] lg:w-[21rem] 2xl:w-[25rem]"
       />
       <div
         className="flex flex-col backdrop-opacity-10 bg-[#9A9FA2]/20 
          border border-[#373737] rounded-lg w-full mt-28 z-30 p-8 pt-32 pb-10 
-         hover:border-[#777777] cursor-pointer md:mt-60 lg:mt-28"
+         hover:border-[#777777] cursor-pointer md:mt-60 lg:mt-28 2xl:w-[28rem]"
       >
-        <h1 className="text-white mt-10 text-xl w-[15rem]">{title}</h1>
-        <p className="text-md text-[#7E7E7E] mt-5 secondary-text  w-[17rem]">
+        <h1 className="text-white mt-10 text-xl w-[15rem] 2xl:w-[25rem]">{title}</h1>
+        <p className="text-md text-[#7E7E7E] mt-5 secondary-text w-[17rem] 2xl:w-[22rem]">
           {description}
         </p>
 

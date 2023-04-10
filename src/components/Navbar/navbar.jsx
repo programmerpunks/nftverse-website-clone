@@ -26,7 +26,7 @@ export function Navbar() {
         alt="background-layer"
         className="absolute translate-x-[-40%] translate-y-[-40%]"
       />
-      <div className="p-10 px-4 xl:px-44 z-20 w-full animate__animated animate__fadeInDown">
+      <div className="p-10 px-4  z-20 w-full animate__animated animate__fadeInDown xl:px-44 2xl:px-[32rem] 4xl:px-[42rem]">
         <nav className="bottom-0 xl:mb-0 xl:flex flex-row">
           <div className="flex flex-row justify-between">
             <div className="flex items-center justify-center px-6 cursor-pointer">

@@ -7,11 +7,15 @@ export default function SocialCard({ item, delay }) {
   useEffect(() => {
     Aos.init({ duration: 1000, offset: 200 });
   }, []);
+
+  const cardStyle =
+    "p-3 rounded-lg backdrop-opacity-10 bg-[#9A9FA2]/20 border border-[#65686A] flex flex-col justify-center items-center " +
+    customStyle;
+
   return (
     <div
       key={_id}
-      className={`p-3 rounded-lg backdrop-opacity-10 bg-[#9A9FA2]/20 border border-[#65686A] 
-      flex flex-col justify-center items-center ${customStyle}  `}
+      className={cardStyle}
       data-aos="fade-right"
       data-aos-delay={delay}
     >

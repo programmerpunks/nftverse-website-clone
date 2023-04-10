@@ -26,7 +26,7 @@ export default function Collection() {
         {tag}
       </p>
       <h1 className="text-[#EE7C08] text-center text-4xl mt-5">{heading}</h1>
-      <Slider {...settings} className=" px-5 mt-10">
+      <Slider {...settings} className=" px-5 mt-10 2xl:mx-52 4xl:mx-64">
         {sliderData.map((item, key) => (
           <SliderCard item={item} key={key} />
         ))}
@@ -35,7 +35,6 @@ export default function Collection() {
       <button
         className="font-Montserrat border border-[#B4B7B9] hover:border-[#E38D11]
         p-3 rounded-full text-white mt-20 text-center w-64 self-center"
-
       >
         {buttonText}
       </button>

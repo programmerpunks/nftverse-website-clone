@@ -15,7 +15,7 @@ export default function Articles() {
       <div data-aos="fade-up">
         <Header tag={tag} heading={heading} />
       </div>
-      <div className="flex flex-col lg:flex-row justify-center items-center px-32 md:px-[10rem] lg:px-32">
+      <div className="flex flex-col lg:flex-row justify-center items-center px-32 md:px-[10rem] lg:px-32 2xl:px-80 4xl:px-[30rem]">
         {articles.map((item, key) => (
           <Card item={item} key={item._id} delay={100 * (key + 1)} />
         ))}
