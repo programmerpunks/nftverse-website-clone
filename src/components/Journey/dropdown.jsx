@@ -10,7 +10,7 @@ export default function Dropdown({ item }) {
         {question}
       </div>
       <div className="collapse-content ease-in-out">
-        <p className="secondary-text p-5">{answer}</p>
+        <p className="secondary-text pl-5">{answer}</p>
       </div>
     </div>
   );

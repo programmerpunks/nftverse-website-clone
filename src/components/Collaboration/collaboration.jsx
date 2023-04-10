@@ -27,7 +27,7 @@ export default function Collaboration() {
               width={200}
               height={200}
               alt="company-logo"
-              className="m-6 opacity-50 cursor-pointer hover:opacity-90"
+              className="w-[13rem] h-auto m-6 opacity-50 cursor-pointer hover:opacity-90 2xl:w-[17rem]"
             />
           ))}
         </div>

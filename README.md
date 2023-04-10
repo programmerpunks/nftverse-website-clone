@@ -37,3 +37,5 @@ $ npm install
 ```sh
 $ npm run dev
 ```
+
+- In order to change the social icons in the website, refer to the 'react-icons' documentation which can be accessed from the link followed https://react-icons.github.io/react-icons
