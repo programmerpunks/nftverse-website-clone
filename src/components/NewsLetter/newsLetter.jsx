@@ -14,7 +14,7 @@ export default function NewsLetter() {
     Aos.init({ duration: 1000, offset: 200 });
   }, []);
   return (
-    <section className="overflow-x-hidden overflow-y-hidden">
+    <section className="overflow-x-hidden overflow-y-hidden" id="newsletter">
       <div className="flex bg-[url('/assets/images/dots-r.png')] bg-cover w-full h-[28rem] md:h-[35rem] lg:h-[45rem]">
         <div className="flex bg-[url('/assets/images/dots-r.png')] bg-cover w-full h-full "></div>
         <div className="flex flex-row justify-end items-end relative rotate-[150deg] mr-[-29rem]">

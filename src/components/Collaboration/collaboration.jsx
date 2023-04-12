@@ -10,7 +10,7 @@ export default function Collaboration() {
   }, []);
 
   return (
-    <section className="my-20">
+    <section className="my-20" id="collaborations">
       <div className="flex flex-col justify-center items-center"  data-aos="fade-up">
         <h1
           className="bg-gradient-to-r from-[#F69F21] to-[#EE7C08]

@@ -11,7 +11,7 @@ export default function Benefit() {
   }, []);
 
   return (
-    <section>
+    <section id="benefit">
       <div className="flex flex-row overflow-x-hidden overflow-y-hidden">
         <div className="flex bg-[url('/assets/images/dots-r.png')] bg-cover w-full h-[45rem] ">
           <div className="flex bg-[url('/assets/images/dots-r.png')] bg-cover w-full h-full "></div>

@@ -25,7 +25,7 @@ export default function Hero() {
   const [days, hours, minutes, seconds] = useCountdown(dateTimeAfterThreeDays);
 
   return (
-    <section className="hero">
+    <section className="hero" id="home">
       <div className="flex justify-center items-center relative ">
         <Image
           src={greenBlurBg}

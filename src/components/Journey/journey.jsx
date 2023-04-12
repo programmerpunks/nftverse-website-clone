@@ -20,7 +20,7 @@ export default function Journey() {
   }, []);
 
   return (
-    <section className="overflow-x-hidden overflow-y-hidden">
+    <section className="overflow-x-hidden overflow-y-hidden" id="journey">
       <div className="flex bg-[url('/assets/images/dots-r.png')] bg-cover w-full h-[55rem] md:h-[65rem] lg:h-[55rem] justify-center items-center">
         <div
           className="flex flex-col justify-center items-start ml-0  

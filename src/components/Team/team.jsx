@@ -8,6 +8,7 @@ export default function Team() {
     <section
       className="overflow-x-hidden overflow-y-hidden mt-10"
       data-aos="fade-up"
+      id="team"
     >
       <Header tag={tag} heading={heading} />
 

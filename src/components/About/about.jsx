@@ -20,6 +20,7 @@ export default function About() {
     <section
       className="flex flex-col p-8 items-center mt-10 md:mt-16 xl:mt-0"
       data-aos="fade-up"
+      id="about"
     >
       <div className="flex flex-row justify-center items-center relative">
         <div className="hidden md:block w-48"></div>

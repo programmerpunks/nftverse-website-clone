@@ -1,31 +1,31 @@
-import close from "/src/assets/Navbar/images/close.png"
+import close from "/src/assets/Navbar/images/close.png";
 import greenBg from "/src/assets/Navbar/images/l-blur-green.png";
-import menu from "/src/assets/Navbar/images/menu-icon.png"
+import menu from "/src/assets/Navbar/images/menu-icon.png";
 
 export const logo = "/assets/images/main-logo.png";
 export const blurGreenBg = greenBg;
-export const closeIcon = close
+export const closeIcon = close;
 export const menuIcon = menu;
 
 export const navLinks = [
   {
     text: "Home",
-    link: "#banner",
+    link: "#home",
     active: true,
   },
   {
-    text: "NFT",
-    link: "#nft",
+    text: "About",
+    link: "#about",
     active: false,
   },
   {
-    text: "Pages",
-    link: "#pages",
+    text: "Collection",
+    link: "#collection",
     active: false,
   },
   {
     text: "Contact",
-    link: "#contact",
+    link: "#newsletter",
     active: false,
   },
 ];

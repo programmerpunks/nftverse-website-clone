@@ -11,7 +11,10 @@ export default function Articles() {
   }, []);
 
   return (
-    <section className="overflow-x-hidden overflow-y-hidden mt-14">
+    <section
+      className="overflow-x-hidden overflow-y-hidden mt-14"
+      id="articles"
+    >
       <div data-aos="fade-up">
         <Header tag={tag} heading={heading} />
       </div>

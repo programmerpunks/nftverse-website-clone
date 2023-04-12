@@ -26,9 +26,11 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-row justify-between items-center w-[12rem] cursor-pointer">
-            {socialLinks.map((item) => {
-              return item.icon;
-            })}
+            {socialLinks.map((item) => (
+              <Link href={item.link} target="_blank">
+                {item.icon}
+              </Link>
+            ))}
           </div>
         </div>
 

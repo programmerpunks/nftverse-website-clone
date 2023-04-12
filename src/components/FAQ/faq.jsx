@@ -15,7 +15,7 @@ export default function FAQ() {
     Aos.init({ duration: 1000, offset: 200 });
   }, []);
   return (
-    <section className="mb-64 lg:mb-5">
+    <section className="mb-64 lg:mb-5" id="faq">
       <div className="flex bg-[url('/assets/images/dots-r.png')] bg-cover w-full h-[35rem]">
         <div className="flex bg-[url('/assets/images/dots-r.png')] bg-cover w-full h-full "></div>
 

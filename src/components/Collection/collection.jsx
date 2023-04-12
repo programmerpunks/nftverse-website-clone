@@ -21,6 +21,7 @@ export default function Collection() {
     <section
       className="flex flex-col mt-[50rem] w-full overflow-x-hidden overflow-y-hidden md:mt-[60rem] xl:px-40 lg:mt-52"
       data-aos="fade-up"
+      id="collection"
     >
       <p className="font-Montserrat uppercase text-center secondary-text tracking-widest">
         {tag}
